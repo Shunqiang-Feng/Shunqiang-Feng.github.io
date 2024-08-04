@@ -95,23 +95,23 @@ scholar:
 If the entry matches one form of the last names and the first names, it will be underlined. Keep meta-information about your co-authors in [\_data/coauthors.yml](_data/coauthors.yml) and Jekyll will insert links to their webpages automatically. The co-author data format is as follows,
 
 ```yaml
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+'adams':
+  - firstname: ['Edwin', 'E.', 'E. P.', 'Edwin Plimpton']
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+'podolsky':
+  - firstname: ['Boris', 'B.', 'B. Y.', 'Boris Yakovlevich']
     url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"rosen":
-  - firstname: ["Nathan", "N."]
+'rosen':
+  - firstname: ['Nathan', 'N.']
     url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
+'bach':
+  - firstname: ['Johann Sebastian', 'J. S.']
     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+  - firstname: ['Carl Philipp Emanuel', 'C. P. E.']
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 ```
 

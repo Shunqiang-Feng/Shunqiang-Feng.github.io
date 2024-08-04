@@ -1,6 +1,6 @@
 name: 🚀 Feature request
 description: Propose a feature for this project
-labels: ["needs triage", "enhancement"]
+labels: ['needs triage', 'enhancement']
 body:
   - type: markdown
     attributes:

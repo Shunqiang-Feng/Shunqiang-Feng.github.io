@@ -11,4 +11,4 @@ changelog:
         - bug-fix
     - title: other changes 🛠️
       labels:
-        - "*"
+        - '*'

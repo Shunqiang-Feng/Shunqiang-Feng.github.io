@@ -72,8 +72,8 @@ div#notebook_list_header.row.list_header {
 
 i.fa.fa-folder {
   display: inline-block;
-  font: normal normal normal 14px "FontAwesome";
-  font-family: "FontAwesome" !important;
+  font: normal normal normal 14px 'FontAwesome';
+  font-family: 'FontAwesome' !important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   font-size: 18px;
@@ -177,7 +177,7 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f07b";
+  content: '\f07b';
   color: #ae81ff;
 }
 
@@ -188,7 +188,7 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f02d";
+  content: '\f02d';
   position: relative;
   color: #a6e22e !important;
   top: 0px;
@@ -201,7 +201,7 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f15b";
+  content: '\f15b';
   position: relative;
   top: 0px;
   color: #888888 !important;
@@ -224,7 +224,7 @@ div#notebook_toolbar div.dynamic-instructions {
 
 span#login_widget > .button,
 #logout {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
   color: #f8f8f0;
   background: transparent;
   background-color: transparent;
@@ -315,7 +315,7 @@ body > #header {
   vertical-align: middle;
 }
 
-.list_item input:not([type="checkbox"]) {
+.list_item input:not([type='checkbox']) {
   padding-right: 0px;
   height: 1.75em;
   width: 25%;
@@ -371,8 +371,8 @@ input#select-all.pull-left.tree-selector {
   top: 4px;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
+input[type='radio'],
+input[type='checkbox'] {
   margin-top: 1px;
   line-height: normal;
 }
@@ -420,7 +420,7 @@ div.list_item:hover {
 }
 
 .breadcrumb > li + li:before {
-  content: "/\00a0";
+  content: '/\00a0';
   padding: 0px;
   color: #f8f8f0;
   font-size: 18px;
@@ -474,7 +474,7 @@ ul#tabs a {
 }
 
 .nav-tabs > li > a:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 2px;
@@ -496,7 +496,7 @@ ul#tabs a {
 }
 
 .nav-tabs > li.active > a:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 2px;
@@ -742,7 +742,7 @@ div.notification_widget.info,
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f10c";
+  content: '\f10c';
   vertical-align: middle;
   position: static;
   display: inherit;
@@ -827,7 +827,7 @@ div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn {
   opacity: 0.7;
   vertical-align: bottom;
   margin-top: 1px;
-  content: "\f1db";
+  content: '\f1db';
 }
 
 .kernel_busy_icon:before {
@@ -842,7 +842,7 @@ div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn {
   margin-left: 0px !important;
   vertical-align: bottom;
   margin-top: 1px;
-  content: "\f111";
+  content: '\f111';
 }
 
 @-webkit-keyframes pulsate {
@@ -925,7 +925,7 @@ i.fa.fa-icon {
 .fa {
   display: inline-block;
   font:
-    normal normal normal 10pt/1 "FontAwesome",
+    normal normal normal 10pt/1 'FontAwesome',
     sans-serif;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -1593,11 +1593,11 @@ select.form-control.select-xs {
   color: #75715e;
 }
 
-[dir="ltr"] #find-and-replace .input-group-btn + .form-control {
+[dir='ltr'] #find-and-replace .input-group-btn + .form-control {
   border: 2px solid rgba(93, 92, 82, 0.25) !important;
 }
 
-[dir="ltr"] #find-and-replace .input-group-btn + .form-control:focus {
+[dir='ltr'] #find-and-replace .input-group-btn + .form-control:focus {
   border-color: #a6e22e;
   outline: 2px solid #49483e;
   -webkit-box-shadow: none;
@@ -1892,11 +1892,11 @@ div.cell.code_cell.rendered.unselected .run_this_cell:hover {
 
 i.fa-step-forward.fa {
   display: inline-block;
-  font: normal normal normal 9px "FontAwesome";
+  font: normal normal normal 9px 'FontAwesome';
 }
 
 .fa-step-forward:before {
-  content: "\f04b";
+  content: '\f04b';
 }
 
 div.cell.selected.jupyter-soft-selected .run_this_cell,
@@ -2870,7 +2870,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
   position: absolute;
   right: 0;
   bottom: 20% !important;
-  content: "[\002026]";
+  content: '[\002026]';
   color: rgba(93, 92, 82, 0.5) !important;
   padding: 0.5em 0em 0em 0em !important;
 }
@@ -3056,13 +3056,13 @@ body > div.modal.cmd-palette.typeahead-field {
 }
 
 .command-shortcut:before {
-  content: "(command)";
+  content: '(command)';
   padding-right: 3px;
   color: #75715e;
 }
 
 .edit-shortcut:before {
-  content: "(edit)";
+  content: '(edit)';
   padding-right: 3px;
   color: #75715e;
 }
@@ -3135,8 +3135,8 @@ body > div.modal.cmd-palette.in > div {
 }
 
 .jupyter-dashboard-menu-item.selected::before {
-  font-family: "FontAwesome" !important;
-  content: "\f00c" !important;
+  font-family: 'FontAwesome' !important;
+  content: '\f00c' !important;
   position: absolute !important;
   color: #a6e22e !important;
   left: 0px !important;

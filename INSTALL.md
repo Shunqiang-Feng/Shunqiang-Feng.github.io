@@ -195,7 +195,7 @@ name: Sync from template
 on:
   # cronjob trigger
   schedule:
-    - cron: "0 0 1 * *"
+    - cron: '0 0 1 * *'
   # manual trigger
   workflow_dispatch:
 jobs:

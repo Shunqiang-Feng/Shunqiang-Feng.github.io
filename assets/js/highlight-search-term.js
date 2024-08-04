@@ -39,72 +39,72 @@
  *   highlightSearchTerm({ search: search.value, selector: ".content" });
  * });
  */
-const highlightSearchTerm = ({ search, selector, customHighlightName = "search" }) => {
+const highlightSearchTerm = ({ search, selector, customHighlightName = 'search' }) => {
   if (!selector) {
-    throw new Error("The selector argument is required");
+    throw new Error('The selector argument is required')
   }
 
-  if (!CSS.highlights) return; // disable feature on Firefox as it does not support CSS Custom Highlight API
+  if (!CSS.highlights) return // disable feature on Firefox as it does not support CSS Custom Highlight API
 
   // remove previous highlight
-  CSS.highlights.delete(customHighlightName);
+  CSS.highlights.delete(customHighlightName)
   if (!search) {
     // nothing to highlight
-    return;
+    return
   }
   // find all text nodes containing the search term
-  const ranges = [];
-  const nonMatchingElements = [];
-  const elements = document.querySelectorAll(selector);
+  const ranges = []
+  const nonMatchingElements = []
+  const elements = document.querySelectorAll(selector)
   Array.from(elements).map((element) => {
-    let match = false;
+    let match = false
     getTextNodesInElementContainingText(element, search).forEach((node) => {
       // Modified variant of highlight-search-term
       // We return the non-matching elements in addition.
-      const rangesForSearch = getRangesForSearchTermInNode(node, search);
-      ranges.push(...rangesForSearch);
+      const rangesForSearch = getRangesForSearchTermInNode(node, search)
+      ranges.push(...rangesForSearch)
       if (rangesForSearch.length > 0) {
-        match = true;
+        match = true
       }
-    });
+    })
     if (!match) {
-      nonMatchingElements.push(element);
+      nonMatchingElements.push(element)
     }
-  });
-  if (ranges.length === 0) return nonMatchingElements; // modified: return `nonMatchingElements`
+  })
+  if (ranges.length === 0) return nonMatchingElements // modified: return `nonMatchingElements`
   // create a CSS highlight that can be styled with the ::highlight(search) pseudo-element
-  const highlight = new Highlight(...ranges);
-  CSS.highlights.set(customHighlightName, highlight);
-  return nonMatchingElements; // modified: return `nonMatchingElements`
-};
+  const highlight = new Highlight(...ranges)
+  CSS.highlights.set(customHighlightName, highlight)
+  return nonMatchingElements // modified: return `nonMatchingElements`
+}
 
 const getTextNodesInElementContainingText = (element, text) => {
-  const nodes = [];
-  const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
-  let node;
+  const nodes = []
+  const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT)
+  let node
   while ((node = walker.nextNode())) {
     if (node.textContent && node.textContent.toLowerCase().includes(text)) {
-      nodes.push(node);
+      nodes.push(node)
     }
   }
-  return nodes;
-};
+  return nodes
+}
 
 // Fix: We changed this function to work on the node directly, rather than on its parent element.
 const getRangesForSearchTermInNode = (node, search) => {
-  const ranges = [];
-  const text = (node.textContent ? node.textContent.toLowerCase() : "") || "";
+  const ranges = []
+  const text = (node.textContent ? node.textContent.toLowerCase() : '') || ''
 
-  let start = 0;
-  let index;
+  let start = 0
+  let index
   while ((index = text.indexOf(search, start)) >= 0) {
-    const range = new Range();
-    range.setStart(node, index);
-    range.setEnd(node, index + search.length);
-    ranges.push(range);
-    start = index + search.length;
+    const range = new Range()
+    range.setStart(node, index)
+    range.setEnd(node, index + search.length)
+    ranges.push(range)
+    start = index + search.length
   }
-  return ranges;
-};
+  return ranges
+}
 
-export { highlightSearchTerm };
+export { highlightSearchTerm }

@@ -41,12 +41,12 @@
     white-space: pre;
   }
 
-  .debug[debug="true"] .reserved {
+  .debug[debug='true'] .reserved {
     fill: var(--global-text-color);
     opacity: 0.5;
   }
 
-  .debug[debug="true"] line.grid {
+  .debug[debug='true'] line.grid {
     stroke: var(--global-text-color);
     stroke-width: 0.2;
     stroke-linecap: butt;
@@ -58,7 +58,7 @@
     stroke-width: 0;
   }
 
-  .debug[debug="true"] polygon.inner {
+  .debug[debug='true'] polygon.inner {
     fill: var(--global-text-color);
     stroke: var(--global-text-color);
     opacity: 5%;
@@ -71,18 +71,18 @@
     fill: var(--global-text-color);
   }
 
-  .debug[debug="true"] polygon,
-  .debug[debug="true"] line.grid {
+  .debug[debug='true'] polygon,
+  .debug[debug='true'] line.grid {
     opacity: 10%;
   }
 
-  .debug[debug="true"] polygon,
-  .debug[debug="true"] path,
-  .debug[debug="true"] circle {
+  .debug[debug='true'] polygon,
+  .debug[debug='true'] path,
+  .debug[debug='true'] circle {
     opacity: 50%;
   }
 
-  .debug[debug="true"] polygon {
+  .debug[debug='true'] polygon {
     fill: red;
     stroke: red;
   }
@@ -93,17 +93,17 @@
   }
   **/
 
-  .debug[debug="true"] circle,
-  .debug[debug="true"] path {
+  .debug[debug='true'] circle,
+  .debug[debug='true'] path {
     opacity: 50%;
     fill: red;
   }
 
-  .debug[debug="true"] circle {
+  .debug[debug='true'] circle {
     stroke: red;
   }
 
-  .debug[debug="true"] .inner {
+  .debug[debug='true'] .inner {
     stroke-width: 0.2;
   }
 
@@ -113,12 +113,12 @@
     stroke: var(--global-text-color);
   }
 
-  .debug[debug="true"] line.part {
+  .debug[debug='true'] line.part {
     opacity: 50%;
     stroke: red;
   }
 
-  .debug[debug="true"] line.center {
+  .debug[debug='true'] line.center {
     stroke-width: 3;
     stroke-linecap: butt;
     opacity: 10%;

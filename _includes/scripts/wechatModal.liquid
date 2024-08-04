@@ -2,17 +2,17 @@
   <!-- WeChat Modal -->
 
   <script>
-    var wechatModal = document.getElementById('WeChatMod');
-    var wechatBtn = document.getElementById('WeChatBtn');
+    var wechatModal = document.getElementById('WeChatMod')
+    var wechatBtn = document.getElementById('WeChatBtn')
 
     wechatBtn.onclick = function () {
-      wechatModal.style.display = 'block';
-    };
+      wechatModal.style.display = 'block'
+    }
 
     window.onclick = function (event) {
       if (event.target == wechatModal) {
-        wechatModal.style.display = 'none';
+        wechatModal.style.display = 'none'
       }
-    };
+    }
   </script>
 {% endif %}
