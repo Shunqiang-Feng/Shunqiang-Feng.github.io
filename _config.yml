@@ -166,6 +166,7 @@ defaults:
 # Reading Files
 include:
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
