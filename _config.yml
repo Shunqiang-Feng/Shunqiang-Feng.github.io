@@ -24,7 +24,7 @@ email: shunq.feng@gmail.com
 name: "Shunqiang Feng"
 description: >- # this means to ignore newlines until "baseurl:"
   Shunqiang Feng's Homepage
-url: "shunqiang.site"      # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "Shunqiang-Feng.github.io"      # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 github_username:  Shunqiang-Feng
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
