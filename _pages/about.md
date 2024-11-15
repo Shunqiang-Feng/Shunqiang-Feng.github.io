@@ -6,7 +6,7 @@ layout: single
 author_profile: true
 permalink: /
 title: "About"
-sitemap: false
+sitemap: true
 toc: true
 toc_label: "Content Table"
 toc_sticky: true
