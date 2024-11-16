@@ -119,6 +119,7 @@ author:
   avatar   : "/assets/images/bio-photo.jpg"
   bio      : "Incoming CS PhD @ UVA"
   location : "China"
+  home      : "Shunqiang-Feng.github.io"
   links:
     - label: "University of Virginia"
       icon: "fas fa-fw fa-building-columns icon-pad-right"
