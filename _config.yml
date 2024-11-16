@@ -24,10 +24,10 @@ email: shunq.feng@gmail.com
 name: "Shunqiang Feng"
 description: >- # this means to ignore newlines until "baseurl:"
   Shunqiang Feng's Homepage
-url: "Shunqiang-Feng.github.io"      # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "shunqiang.site"      # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 github_username:  Shunqiang-Feng
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : Shunqiang-Feng/Shunqiang-Feng.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/uva.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -119,7 +119,6 @@ author:
   avatar   : "/assets/images/bio-photo.jpg"
   bio      : "Incoming CS PhD @ UVA"
   location : "China"
-  home      : "Shunqiang-Feng.github.io"
   links:
     - label: "University of Virginia"
       icon: "fas fa-fw fa-building-columns icon-pad-right"
