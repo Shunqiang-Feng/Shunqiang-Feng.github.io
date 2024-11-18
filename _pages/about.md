@@ -16,7 +16,7 @@ redirect_from:
 description: "Shunqiang Feng's personal academic page, showcasing his background, research interests, and news."
 ---
 
-I am Shunqiang **FENG** (**冯** 顺强 in Chinese), an incoming PhD student in the **Computing Science** Department of **University of Virginia**, starting in the Spring 2025. I am also a member of **WI4X (Wireless-Intelligence-For-Everything)** Lab under the supervision of **[Prof. Kun Qian](https://kunqian.info)**.
+I am Shunqiang **FENG** (**冯** 顺强 in Chinese), an incoming Ph.D. student in the **Computing Science** Department of **University of Virginia**, starting in the Spring 2025. I am also a member of **WI4X (Wireless-Intelligence-For-Everything)** Lab under the supervision of **[Prof. Kun Qian](https://kunqian.info)**.
 
 My research focuses on **Mobile Computing & Networking**, **Wireless Sensing**, etc.
 
@@ -25,9 +25,9 @@ Currently, I am conducting remote research under the guidance of Prof. Qian.
 ## 🎓 Education Background
 
 - **University of Virginia**  
-  _PhD in Computer Science (2025 - )_
+  _Ph.D. in Computer Science (2025 - )_
 - **University of Electronic Science and Technology of China**  
-  _BEng in Electronic Information Engineering (2020 - 2024)_
+  _B.Eng. in Electronic Information Engineering (2020 - 2024)_
 
 ## 🚀 Latest News
 
