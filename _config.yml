@@ -117,8 +117,8 @@ analytics:
 author:
   name     : "Shunqiang Feng"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "Incoming CS Ph.D. @ UVA"
-  location : "China"
+  bio      : "CS Ph.D. Student @ UVA"
+  location : "Charlottesville "
   links:
     - label: "University of Virginia"
       icon: "fas fa-fw fa-building-columns icon-pad-right"
