@@ -161,10 +161,22 @@ defaults:
       share: true
       related: true
 
+  - scope:
+      path: ""
+      type: readings
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      
 # Reading Files
 include:
   - _pages
   - _posts
+  - _readings
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
