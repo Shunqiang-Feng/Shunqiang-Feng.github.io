@@ -16,7 +16,7 @@ redirect_from:
 description: "Shunqiang Feng's personal academic page, showcasing his background, research interests, and news."
 ---
 
-I am Shunqiang **FENG** (**冯** 顺强 in Chinese), a Ph.D. student in the **Computing Science** Department of **University of Virginia**, starting in the Spring 2025. I am also a member of **WINK (Wireless Intelligence & NetworKing) Lab** && **Link Lab** under the supervision of **[Prof. Kun Qian](https://kunqian.info)**.
+I am Shunqiang FENG (冯顺强 in Chinese), a second-year Ph.D. student in the Department of Computer Science at the University of Virginia since Spring 2025. I am also a member of WINK (Wireless Intelligence & NetworKing) Lab and Link Lab under the supervision of [Prof. Kun Qian](https://kunqian.info).
 
 My research focuses on **Mobile Computing & Networking**, **Wireless Sensing**, etc.
 
