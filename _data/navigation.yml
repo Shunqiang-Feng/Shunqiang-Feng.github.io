@@ -4,5 +4,7 @@ main:
     url: /
   - title: "News"
     url: /news/
+  - title: "Publications"
+    url: /publications/
   - title: "Teaching"
     url: /teaching/
