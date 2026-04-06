@@ -27,6 +27,12 @@ My research focuses on **Mobile Computing & Networking**, **Wireless Sensing**, 
 - **University of Electronic Science and Technology of China**  
   _B.Eng. in Electronic Information Engineering (2020 - 2024)_
 
+## 📄 Selected Publications
+
+**BeamFormer: Transformer-based Beam Management for 6G Networks**  
+**Shunqiang Feng**, Swastik Kanjilal, Kun Qian, Ish Jain  
+*ACM MobiSys 2026* &nbsp; \[[To appear]\] \[<a href="https://github.com/Shunqiang-Feng/BeamFormer"><i class="fab fa-github"></i></a>\]
+
 ## 🚀 Latest News
 
 {% for post in site.posts | sort: 'date' | reverse | limit: 3 %}
