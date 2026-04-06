@@ -18,7 +18,7 @@ description: "Shunqiang Feng's personal academic page, showcasing his background
 
 I am Shunqiang FENG (冯顺强 in Chinese), a second-year Ph.D. student in the Department of Computer Science at the University of Virginia since Spring 2025. I am also a member of WINK (Wireless Intelligence & NetworKing) Lab and Link Lab under the supervision of [Prof. Kun Qian](https://kunqian.info).
 
-My research focuses on **Mobile Computing & Networking**, **Wireless Sensing**, etc.
+My research focuses on Mobile Computing & Networking, Wireless Sensing, etc.
 
 ## 🎓 Education Background
 
@@ -29,9 +29,9 @@ My research focuses on **Mobile Computing & Networking**, **Wireless Sensing**, 
 
 ## 📄 Selected Publications
 
-**BeamFormer: Transformer-based Beam Management for 6G Networks**  
+[MobiSys 2026] BeamFormer: Transformer-based Beam Management for 6G Networks 
 **Shunqiang Feng**, Swastik Kanjilal, Kun Qian, Ish Jain  
-*ACM MobiSys 2026* &nbsp; \[[To appear]\] \[<a href="https://github.com/Shunqiang-Feng/BeamFormer"><i class="fab fa-github"></i></a>\]
+\[<a href="https://github.com/Shunqiang-Feng/BeamFormer"><i class="fab fa-github"></i></a>\]
 
 ## 🚀 Latest News
 
