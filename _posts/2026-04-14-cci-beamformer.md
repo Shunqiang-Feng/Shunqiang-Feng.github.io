@@ -7,6 +7,6 @@ header:
   teaser: /assets/images/CCI2026-BeamFormer.JPG
 ---
 
-I presented our work [BeamFormer](https://cyberinitiative.org/events-programs/2026/cci-symposium-2026.html) at the [CCI Symposium 2026](https://cyberinitiative.org/events-programs/2026/cci-symposium-2026.html). The Commonwealth Cyber Initiative (CCI) is Virginia's main access point for cybersecurity research, innovation, workforce development, and news. In this community, researchers find funding and collaboration, students discover diverse career possibilities, and new innovations come to life.
+I presented our work [BeamFormer](/publications/#beamformer) at the [CCI Symposium 2026](https://cyberinitiative.org/events-programs/2026/cci-symposium-2026.html). The Commonwealth Cyber Initiative (CCI) is Virginia's main access point for cybersecurity research, innovation, workforce development, and news. In this community, researchers find funding and collaboration, students discover diverse career possibilities, and new innovations come to life.
 
 ![CCI 2026 BeamFormer Presentation](/assets/images/CCI2026-BeamFormer.JPG)
