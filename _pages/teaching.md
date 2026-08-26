@@ -7,10 +7,10 @@ author_profile: true
 
 ## Teaching Assistant
 
-### Fall 2026 - Graduate: Wireless Sensing for IoT
+### Fall 2026 - CS 6501: Wireless Sensing for IoT
 
 - **Location:** Link Lab (Olsson Hall) NE-6
-- **Office Hours:** Shunqiang Feng: Monday, 2PM - 3PM; Tuesday, 2PM - 3PM
+- **Office Hours:** Monday & Tuesday, 2PM - 3PM
 - By appointment
 
 ## Past
